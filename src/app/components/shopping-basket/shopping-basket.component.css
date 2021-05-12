@@ -1,0 +1,17 @@
+:host {
+    display: block;
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;  
+    padding-top: 500px;
+padding-right: 35px;  }
+  
+  .item {
+    margin: 10px;
+    width: 200px;  
+   background-image: url("../../images/j.jpg");
+
+  }

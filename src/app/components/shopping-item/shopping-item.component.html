@@ -1,0 +1,8 @@
+<div class="description">{{item.name}}</div>
+<p class="price">
+  {{item.price | currency:'INR':'$'}}
+</p>
+<p class="price">
+{{item.rating| currency:'☆'}}
+</p>
+<button (click)="remove()" class="remove">Remove</button>
